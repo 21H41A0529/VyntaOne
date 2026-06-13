@@ -196,7 +196,7 @@ function Hero() {
             className="group relative inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition hover:opacity-90"
             style={{ boxShadow: "var(--shadow-glow)" }}
           >
-            Start your free trial
+            Customize your ai voice assitant
             <span aria-hidden className="transition group-hover:translate-x-0.5">→</span>
           </a>
           <a
