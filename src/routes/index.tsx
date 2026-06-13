@@ -496,9 +496,6 @@ function Footer() {
               {n.label}
             </a>
           ))}
-          <Link to="/terms-of-service" className="transition hover:text-foreground">Terms</Link>
-          <Link to="/privacy-policy" className="transition hover:text-foreground">Privacy</Link>
-          <Link to="/refund-policy" className="transition hover:text-foreground">Refunds</Link>
         </div>
         <div className="font-mono text-xs text-muted-foreground">
           © {new Date().getFullYear()} Vynta. All rights reserved.
