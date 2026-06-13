@@ -408,6 +408,8 @@ function Plans() {
 
             <a
               href="https://stripe.com/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="mt-10 flex w-full items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition hover:opacity-90"
             >
               Get started
