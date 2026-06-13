@@ -4,9 +4,9 @@ import { useState } from "react";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Vynta — The 24/7 Voice of Your Business" },
+      { title: "VyntaOne — The 24/7 Voice of Your Business" },
       { name: "description", content: "AI voice receptionist for high-growth businesses. 24/7 customer booking, policy-intelligent Q&A, and zero-touch CRM/Calendar sync." },
-      { property: "og:title", content: "Vynta — The 24/7 Voice of Your Business" },
+      { property: "og:title", content: "VyntaOne — The 24/7 Voice of Your Business" },
       { property: "og:description", content: "AI voice receptionist for high-growth businesses." },
     ],
   }),
@@ -47,7 +47,7 @@ const services = [
   },
   {
     title: "24/7 Lead Capture",
-    body: "Stop losing leads after 5:00 PM. Vynta stays awake 24/7/365, ensuring that every midnight inquiry is captured and qualified immediately.",
+    body: "Stop losing leads after 5:00 PM. VyntaOne stays awake 24/7/365, ensuring that every midnight inquiry is captured and qualified immediately.",
   },
   {
     title: "Smart Scheduling",
@@ -55,7 +55,7 @@ const services = [
   },
   {
     title: "Instant Data Sync",
-    body: "Once the call ends, Vynta instantly pushes all call details — name, phone, and appointment time — to your CRM or email. You get the lead data without ever taking a manual note.",
+    body: "Once the call ends, VyntaOne instantly pushes all call details — name, phone, and appointment time — to your CRM or email. You get the lead data without ever taking a manual note.",
   },
 ];
 
@@ -80,20 +80,20 @@ const planFeatures = [
 
 const faqs = [
   {
-    q: "Does Vynta sound human?",
-    a: "Yes. Vynta uses a business-grade voice engine tuned with natural pacing, intonation, and back-channeling — most callers cannot tell they're speaking to AI.",
+    q: "Does VyntaOne sound human?",
+    a: "Yes. VyntaOne uses a business-grade voice engine tuned with natural pacing, intonation, and back-channeling — most callers cannot tell they're speaking to AI.",
   },
   {
     q: "Do I need to buy expensive equipment or software?",
-    a: "No. Vynta runs entirely on your existing phone number with a simple forwarding setup. No hardware, no installs.",
+    a: "No. VyntaOne runs entirely on your existing phone number with a simple forwarding setup. No hardware, no installs.",
   },
   {
     q: "What happens if a caller asks a complicated question or the AI gets stuck?",
-    a: "Vynta can warm-transfer the call to you or your team in real-time, or capture the question and notify you immediately by email or SMS.",
+    a: "VyntaOne can warm-transfer the call to you or your team in real-time, or capture the question and notify you immediately by email or SMS.",
   },
   {
     q: "Can it book appointments directly onto my calendar?",
-    a: "Yes. Vynta integrates with Google Calendar and Cal.com, checks real-time availability, and confirms the booking on the call.",
+    a: "Yes. VyntaOne integrates with Google Calendar and Cal.com, checks real-time availability, and confirms the booking on the call.",
   },
   {
     q: "How does it know the answers to questions about my specific business?",
@@ -148,7 +148,7 @@ function Header() {
           <span className="grid h-8 w-8 place-items-center rounded-full border border-border bg-surface-elevated">
             <span className="h-2 w-2 rounded-full bg-primary shadow-[0_0_12px_var(--color-primary)]" />
           </span>
-          <span className="font-display text-2xl">Vynta</span>
+          <span className="font-display text-2xl">VyntaOne</span>
         </a>
         <nav className="hidden items-center gap-1 rounded-full border border-border bg-surface/60 px-2 py-1.5 backdrop-blur-md md:flex">
           {nav.map((item) => (
@@ -176,17 +176,14 @@ function Hero() {
   return (
     <section className="relative z-10 mx-auto max-w-6xl px-6 pb-24 pt-16 md:pt-28">
       <div className="mx-auto flex max-w-3xl flex-col items-center text-center">
-        <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-surface/60 px-3 py-1 text-xs uppercase tracking-[0.18em] text-muted-foreground backdrop-blur-md">
-          <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-          Now answering calls in 47 industries
-        </span>
-        <h1 className="font-display text-5xl leading-[1.05] md:text-7xl lg:text-[5.5rem]">
+       
+         <h1 className="font-display text-5xl leading-[1.05] md:text-7xl lg:text-[5.5rem]">
           The <em className="italic text-gradient">24/7 voice</em>
           <br />
           of your business
         </h1>
         <p className="mt-8 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">
-          Capture thousands in missed lead value annually. Vynta is the AI voice receptionist engineered
+          Capture thousands in missed lead value annually. VyntaOne is the AI voice receptionist engineered
           for high-growth businesses — 24/7 customer booking, policy-intelligent Q&amp;A, and zero-touch
           CRM and calendar synchronization.
         </p>
@@ -274,7 +271,7 @@ function Services() {
       <div className="mb-16 max-w-2xl">
         <SectionLabel>Services</SectionLabel>
         <h2 className="font-display text-4xl md:text-6xl">
-          Vynta<em className="italic text-gradient">One</em> AI solutions
+          VyntaOne<em className="italic text-gradient">One</em> AI solutions
         </h2>
         <p className="mt-4 max-w-lg text-muted-foreground">
           Innovative solutions tailored to meet your unique business needs.
@@ -334,14 +331,14 @@ function About() {
         <div className="md:col-span-5">
           <SectionLabel>About</SectionLabel>
           <h2 className="font-display text-4xl md:text-6xl">
-            Meet Vynta:
+            Meet VyntaOne:
             <br />
             your new <em className="italic text-gradient">front desk</em>
           </h2>
         </div>
         <div className="md:col-span-7">
           <p className="font-display text-2xl leading-snug text-foreground md:text-3xl">
-            Vynta was engineered to solve the Receptionist Paradox — the choice between serving the
+            VyntaOne was engineered to solve the Receptionist Paradox — the choice between serving the
             customer in front of you and answering the phone.
           </p>
           <p className="mt-6 text-muted-foreground">
@@ -407,7 +404,7 @@ function Plans() {
             </ul>
 
             <a
-              href="https://stripe.com/"
+              href="https://paddle.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-10 flex w-full items-center justify-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition hover:opacity-90"
@@ -486,7 +483,7 @@ function Footer() {
             <span className="grid h-8 w-8 place-items-center rounded-full border border-border bg-surface-elevated">
               <span className="h-2 w-2 rounded-full bg-primary" />
             </span>
-            <span className="font-display text-2xl">Vynta</span>
+            <span className="font-display text-2xl">VyntaOne</span>
           </div>
           <p className="mt-3 max-w-xs text-sm text-muted-foreground">
             The 24/7 AI voice receptionist for high-growth businesses.
@@ -503,7 +500,7 @@ function Footer() {
           <Link to="/refund-policy" className="transition hover:text-foreground">Refunds</Link>
         </div>
         <div className="font-mono text-xs text-muted-foreground">
-          © {new Date().getFullYear()} Vynta. All rights reserved.
+          © {new Date().getFullYear()} VyntaOne. All rights reserved.
         </div>
       </div>
     </footer>

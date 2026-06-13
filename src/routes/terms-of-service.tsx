@@ -3,10 +3,10 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 export const Route = createFileRoute("/terms-of-service")({
   head: () => ({
     meta: [
-      { title: "Terms of Service — Vynta" },
-      { name: "description", content: "Vynta Terms of Service. Read our terms and conditions for using our AI voice receptionist services." },
-      { property: "og:title", content: "Terms of Service — Vynta" },
-      { property: "og:description", content: "Vynta Terms of Service and conditions." },
+      { title: "Terms of Service — VyntaOne" },
+      { name: "description", content: "VyntaOne Terms of Service. Read our terms and conditions for using our AI voice receptionist services." },
+      { property: "og:title", content: "Terms of Service — VyntaOne" },
+      { property: "og:description", content: "VyntaOne Terms of Service and conditions." },
     ],
   }),
   component: TermsOfService,
@@ -27,7 +27,7 @@ function TermsOfService() {
             <span className="grid h-8 w-8 place-items-center rounded-full border border-border bg-surface-elevated">
               <span className="h-2 w-2 rounded-full bg-primary shadow-[0_0_12px_var(--color-primary)]" />
             </span>
-            <span className="font-display text-2xl">Vynta</span>
+            <span className="font-display text-2xl">VyntaOne</span>
           </Link>
           <Link
             to="/"
@@ -131,7 +131,7 @@ function TermsOfService() {
               <span className="grid h-8 w-8 place-items-center rounded-full border border-border bg-surface-elevated">
                 <span className="h-2 w-2 rounded-full bg-primary" />
               </span>
-              <span className="font-display text-2xl">Vynta</span>
+              <span className="font-display text-2xl">VyntaOne</span>
             </div>
             <p className="mt-3 max-w-xs text-sm text-muted-foreground">
               The 24/7 AI voice receptionist for high-growth businesses.
@@ -144,7 +144,7 @@ function TermsOfService() {
             <Link to="/refund-policy" className="transition hover:text-foreground">Refunds</Link>
           </div>
           <div className="font-mono text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Vynta. All rights reserved.
+            © {new Date().getFullYear()} VyntaOne. All rights reserved.
           </div>
         </div>
       </footer>
